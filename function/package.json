@@ -1,0 +1,7 @@
+{
+    "name": "form-submission-webhook",
+    "version": "1.0.0",
+    "dependencies": {
+        "uipath-orchestrator": "1.1.3"
+    }
+}

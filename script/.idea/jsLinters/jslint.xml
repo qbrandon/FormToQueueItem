@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JSLintConfiguration">
+    <option for="true" />
+    <option maxerr="50" />
+    <option multivar="true" />
+    <option globals="FormApp, PropertiesService, UrlFetchApp, Utilities, console" />
+    <option single="true" />
+  </component>
+</project>

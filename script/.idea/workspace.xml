@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9938310-9b97-48da-96e2-9fb24f53b4de" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1bCw49dbeUGRPS34tARjBKfb77v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="6.11.5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../function" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Linters.JSLint" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9938310-9b97-48da-96e2-9fb24f53b4de" name="Default Changelist" comment="" />
+      <created>1588149189939</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588149189939</updated>
+      <workItem from="1588149191170" duration="2815000" />
+      <workItem from="1588746253141" duration="5255000" />
+      <workItem from="1589688587677" duration="3816000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1041" y="511" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588149593131">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1041" y="511" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1588149593131" />
+    <state x="1061" y="459" key="FileChooserDialogImpl" timestamp="1588150013650">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1061" y="459" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1588150013650" />
+    <state x="784" y="346" key="SettingsEditor" timestamp="1589704590941">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="784" y="346" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1589704590941" />
+    <state x="937" y="331" width="672" height="677" key="run.anything.popup" timestamp="1588747048458">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="937" y="331" width="672" height="677" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1588747048458" />
+  </component>
+</project>
