@@ -41,8 +41,8 @@ From now, your customer facing staff will use tablets to input customer informat
 ### :file_folder: `docs`
 
 Some more detailed documentation about this project:  
-:page_facing_up: `Installation.md`: deployment instructions  
-:page_facing_up: `Remarks.md`: Various comments about the design and implementation choices
+:page_facing_up: [`Installation.md`](./docs/Installation.md): deployment instructions  
+:page_facing_up: [`Remarks.md`](./docs/Remarks.md): Various comments about the design and implementation choices
 
 ### :file_folder: `function`
 

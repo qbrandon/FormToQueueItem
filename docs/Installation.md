@@ -42,8 +42,8 @@ Please not the URL as will need it in the next section (`GCF_URL`.)
 We will not fiddle with GCP specific authentication mechanism, so check the `Allow unauthenticated invocations` option.
 
 You may simply use the `Inline editor`, select the Node.js Runtime (8 or 10 should both be compatible,) and copy/paste the following:
-* INDEX.JS: the content of [function/index.js](./function/index.js)
-* PACKAGE.JSON: the content of [function/package.json](./function/package.json)
+* INDEX.JS: the content of [function/index.js](../function/index.js)
+* PACKAGE.JSON: the content of [function/package.json](../function/package.json)
 
 The `Function to execute` must be set to `IncomingFormSubmissionHandler`
 
@@ -78,7 +78,7 @@ The sample workflow is assuming the presence of the `Email address` due to the f
 Please note that each item in the workflow will be represented as a basic type, so complex types (e.g. the results of a Checkboxes question) will be included in the resulting Queue Item as a string representation (JSON) of the response.
 
 Once you are satisfied with the content of your form, you can open the top right menu and select `<> Script editor` to access the Apps Script editor.  
-In the `Code.gs` file that is now being edited, you may copy paste the content of the [script/submit.gs](./script/submit.gs) file.  
+In the `Code.gs` file that is now being edited, you may copy paste the content of the [script/submit.gs](../script/submit.gs) file.  
 Then click the `File` menu and open the `Project Properties`.  
 In the `Script properties` tab, you will define 2 values:
 * `SIGNATURE_SECRET`
