@@ -47,7 +47,7 @@
       <AssemblyReference>UiPath.Mail</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart sap:VirtualizedContainerService.HintSize="634,636" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart sap2010:Annotation.AnnotationText="A couple of things about this workflow:&#xD;&#xA;It is meant to be readable, not resilient or tuned for performance.&#xD;&#xA;For a production workflow, you would likely want to adopt the REFramework.&#xD;&#xA;For a better reactivity / UR utilization, the WaitQueueItem activity would likely yield better results." sap:VirtualizedContainerService.HintSize="634,714.666666666667" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="x:String" Name="QUEUE_NAME" />
       <Variable x:TypeArguments="x:Boolean" Name="needBreak" />
@@ -63,6 +63,7 @@
         <av:Point x:Key="ShapeLocation">340,32.6666666666667</av:Point>
         <av:Size x:Key="ShapeSize">60,74.6666666666667</av:Size>
         <av:PointCollection x:Key="ConnectorLocation">370,107.333333333333 370,165.333333333333</av:PointCollection>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
@@ -221,7 +222,7 @@
                       <av:PointCollection x:Key="ConnectorLocation">140,405.333333333333 140,353.333333333333</av:PointCollection>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Sequence DisplayName="Sleep" sap:VirtualizedContainerService.HintSize="592,524" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence DisplayName="Sleep" sap:VirtualizedContainerService.HintSize="200,69.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_3">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
