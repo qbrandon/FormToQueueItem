@@ -74,7 +74,7 @@ In my tests, I had a form with the following fields:
 * `Desired setup date` (Date)
 * `Comments` (Paragraph)
 
-The sample workflow is assuming the presence of the `Email address` due to the form being configured with the setting "Collect email addresses".
+The sample workflow is assuming the presence of the `Email address` as the key `submitter` due to the form being configured with the setting "Collect email addresses", and the function enforcing the submitter be part of the payload.
 Please note that each item in the workflow will be represented as a basic type, so complex types (e.g. the results of a Checkboxes question) will be included in the resulting Queue Item as a string representation (JSON) of the response.
 
 Once you are satisfied with the content of your form, you can open the top right menu and select `<> Script editor` to access the Apps Script editor.  
