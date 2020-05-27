@@ -84,4 +84,13 @@ In the `Script properties` tab, you will define 2 values:
 * `SIGNATURE_SECRET`
 * `GCF_URL`
 
-Click `Save` and you are ready to go!
+Click `Save` and you are almost there!
+
+In the Edit menu, open `Current Project's Triggers`.
+Click `Add Trigger` then set the following entries:
+- "Which function to run": `onFormSubmit`
+- "Event type": `On form submit`
+
+The rest should be left as default (deployment `Head`, and source `Form`)
+
+Click `Save` and you are finally ready to go!
