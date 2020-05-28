@@ -1,4 +1,4 @@
-# Setup instuctions
+# Setup instructions
 
 Because the data is cascading from the form submission event down to the workflow, we need to setup the various configuration dependencies going upstream.  
 As a result, we will start by configuring the process first, and finish with the form's Apps Script.
@@ -6,7 +6,7 @@ As a result, we will start by configuring the process first, and finish with the
 ## Deploy the UiPath package
 
 Open the `InternetSubscription` UiPath Studio project inside the `workflow` folder.  
-Optionnaly, feel free to customize the `processItem.xaml` at will.  
+Optionally, feel free to customize the `processItem.xaml` at will.  
 When done, publish the package to Orchestrator.
 
 In Orchestrator:
@@ -68,7 +68,7 @@ In my tests, I had a form with the following fields:
 * `Email address` ("Collect email addresses" configuration)
 * `First name` (Short answer, Required)
 * `Last name` (Short answer, Required)
-* `Address` (Pragraph, Required)
+* `Address` (Paragraph, Required)
 * `Phone number` (Short answer, Required)
 * `Subscription type` (Multiple choice, Required)
 * `Desired setup date` (Date)
