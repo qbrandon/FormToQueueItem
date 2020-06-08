@@ -10,7 +10,7 @@ This project shows how to leverage simple yet powerful and scalable SaaS and Paa
 ### Ingredients:
 
 * **Google Forms**: data input from as many users as necessary, with flexible control on access permission and enterprise grade security
-* **Google Cloud Functions**: to act as a serverless bridge between Google Forms and UiPath Cloud Orchestrator
+* **Google Cloud Functions**: to act as a serverless bridge between Google Forms and UiPath Cloud Orchestrator (GCP account with billing enabled required)
 * **UiPath Cloud Platform**: we will leverage the community offering of Orchestrator as a Service for the sake of this demo
 * **UiPath Studio and Robot**: because you probably want to do stuff with your data
 

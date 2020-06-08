@@ -27,9 +27,7 @@ In preparation of the next section, we want to get the API Access information as
 * Client Id
 
 Next, you need to get the ID of the Orchestrator Folder where the Process and Queue are defined.  
-There are several ways, both of which require you to log into your Orchestrator service, then:
-* use your browser's development tool to inspect the Folder ID used in the request headers
-* access the following URL and get the ID from the results: `https://cloud.uipath.com/<AccountLogicalName>/<TenantLogicalName>/odata/Folders`  
+Log into your Orchestrator service, then access the following URL and get the relevant ID from the results: `https://cloud.uipath.com/<AccountLogicalName>/<TenantLogicalName>/odata/Folders`  
 Where you would replace the AccountLogicalName and TenantLogicalName with the values from the previous paragraph.  
 The FolderId is an Interger.
 
@@ -38,7 +36,7 @@ The FolderId is an Interger.
 In your Google Cloud project console, navigate to the `Cloud Functions` tab and click the `CREATE FUNCTION` button.
 
 We will use the default trigger type which is HTTP.  
-Please not the URL as will need it in the next section (`GCF_URL`.)  
+Please note the URL as will need it in the next section (`GCF_URL`.)  
 We will not fiddle with GCP specific authentication mechanism, so check the `Allow unauthenticated invocations` option.
 
 You may simply use the `Inline editor`, select the Node.js Runtime (8 or 10 should both be compatible,) and copy/paste the following:
@@ -93,4 +91,4 @@ Click `Add Trigger` then set the following entries:
 
 The rest should be left as default (deployment `Head`, and source `Form`)
 
-Click `Save` and you are finally ready to go!
+Click `Save` (an OAuth popup will request the appropriate permissions) and you are finally ready to go!
