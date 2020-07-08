@@ -5,7 +5,7 @@ As a result, we will start by configuring the process first, and finish with the
 
 ## Deploy the UiPath package
 
-Open the `InternetSubscription` UiPath Studio project inside the `workflow` folder.  
+Open the UiPath Studio project inside the `workflow` folder (named `InternetSubscription`.)  
 Optionally, feel free to customize the `processItem.xaml` at will.  
 When done, publish the package to Orchestrator.
 
@@ -18,7 +18,7 @@ How to setup an Unattended Robot is out of the scope of this project, so please 
 
 If your Orchestrator instance is self hosted, then you will be able to define a user with the right permission (e.g. Queue Item creation.)  
 If you wish to use the [UiPath Automation Cloud](https://cloud.uipath.com) then you can refer to the following guide on how to [configure API access](https://docs.uipath.com/automation-cloud/docs/about-api-access) for the next step.  
-In the following steps, will assume the use of Automation Cloud.
+In the following steps, we will assume the use of Automation Cloud.
 
 In preparation of the next section, we want to get the API Access information as mentioned in the documentation above, more specifically:
 * User Key (also called a "refresh token", this is the secret key to your account, treat with extreme care)
@@ -29,7 +29,7 @@ In preparation of the next section, we want to get the API Access information as
 Next, you need to get the ID of the Orchestrator Folder where the Process and Queue are defined.  
 Log into your Orchestrator service, then access the following URL and get the relevant ID from the results: `https://cloud.uipath.com/<AccountLogicalName>/<TenantLogicalName>/odata/Folders`  
 Where you would replace the AccountLogicalName and TenantLogicalName with the values from the previous paragraph.  
-The FolderId is an Interger.
+The FolderId is an Integer.
 
 ## Deploy the Google Cloud Functions instance
 
@@ -55,7 +55,7 @@ Expand the `Environment variables, networking, timeouts and more` section and ad
 * `SIGNATURE_SECRET`: <a custom, string type, secret key>
 
 You will need to re-use the `SIGNATURE_SECRET` in the following step, as it will basically ensure the legitimacy of incoming data.  
-An decent key would be as random as possible and 64 character-long for example.
+A decent key would be as random as possible and 64 character-long for example.
 
 Now click the `CREATE` button so your function is deployed and ready.
 
@@ -63,7 +63,7 @@ Now click the `CREATE` button so your function is deployed and ready.
 
 This is where things become a bit more creative.  
 In my tests, I had a form with the following fields:
-* `Email address` ("Collect email addresses" configuration)
+* `Email address` ("Collect email addresses" configuration under "Settings/General")
 * `First name` (Short answer, Required)
 * `Last name` (Short answer, Required)
 * `Address` (Paragraph, Required)

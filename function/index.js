@@ -47,6 +47,17 @@ function checkSignature(signature, payload) {
 }
 
 /**
+ * @param {string} title
+ * @returns {string}
+ */
+function sanitizeresponseItemTitle(title) {
+    if (!title) {
+        return 'empty';
+    }
+    return title;
+}
+
+/**
  * @param {IncomingFormRequest} req
  * @param {GCPResponse} res
  */
@@ -58,6 +69,8 @@ module.exports.IncomingFormSubmissionHandler = function (req, res) {
     var responseItem;
     /** @type {Object} */
     var queueItem;
+    /** @type {string} */
+    var title;
 
     if (!req.body) {
         return handleError(res, 'Invalid payload', 400);
@@ -70,13 +83,14 @@ module.exports.IncomingFormSubmissionHandler = function (req, res) {
     len = req.body.responses.length;
     for (i = 0; i < len; i += 1) {
         responseItem = req.body.responses[i];
-        if (responseItem.title !== 'submitter') {
+        title = sanitizeresponseItemTitle(responseItem.title);
+        if (title !== 'submitter') {
             if (typeof responseItem.response === 'string') {
-                payload[responseItem.title] = responseItem.response;
+                payload[title] = responseItem.response;
             } else {
                 // let's handle non-string type of responses gracefully
                 // (Orchestrator does not accept non-basic types in the SpecificContent of QueueItems)
-                payload[responseItem.title] = JSON.stringify(responseItem.response);
+                payload[title] = JSON.stringify(responseItem.response);
             }
         }
     }
