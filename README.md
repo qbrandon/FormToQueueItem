@@ -34,7 +34,7 @@ You are an internet service provider, and with so many people relying on their m
 But all of a sudden, everyone is now working from home, and the sales staff that you have posted in electronics stores are submitting thousands of applications in just a few days.  
 This is a lot to process; much more than your current setup can handle, especially because the information is filled in paper forms and reaching you in the form of image data that needs to be input by hand.
 
-From now, your customer facing staff will use tablets to input customer information directly into a Google Form, and a Robot will process it by sending a Confirmation email the the customer, and recording the data into your company's ERP system.
+From now, your customer facing staff will use tablets to input customer information directly into a Google Form, and a Robot will process it by sending a Confirmation email the customer, and recording the data into your company's ERP system.
 
 ## Content
 
