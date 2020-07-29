@@ -36,6 +36,11 @@ This is a lot to process; much more than your current setup can handle, especial
 
 From now, your customer facing staff will use tablets to input customer information directly into a Google Form, and a Robot will process it by sending a Confirmation email the customer, and recording the data into your company's ERP system.
 
+This [_connector/solution_] uses the following Google services, subject to their specific license terms:  
+Google Forms: [`Terms of Service`](https://policies.google.com/terms)  
+Google Apps Script: [`Google API Terms of Service`](https://developers.google.com/terms) plus [`Google Apps Script Additional Terms`](https://developers.google.com/apps-script/terms)  
+Google App Engine: [`Google Cloud Platform Terms of Service`](https://cloud.google.com/terms)
+
 ## Content
 
 ### :file_folder: `docs`
